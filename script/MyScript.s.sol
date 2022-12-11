@@ -10,8 +10,8 @@ contract MyScript is Script {
     function run() public {
         vm.startBroadcast();
 
-        new ProxyOracle();
-        new ProxyOracle();
+        new ProxyOracle(1);
+        new ProxyOracle(2);
 
         vm.stopBroadcast();
     }
