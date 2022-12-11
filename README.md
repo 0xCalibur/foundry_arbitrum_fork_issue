@@ -27,7 +27,7 @@ Traces:
     └─ ← ()
 ```
 
-removing vm.createSelectFork in the test doesn't produce the issue.
+removing vm.createSelectFork and/or script's vm.start/stopBroadcast doesn't produce the issue.
 
 Forge:
 forge 0.2.0 (e9f274d 2022-12-11T00:03:42.968584731Z)
