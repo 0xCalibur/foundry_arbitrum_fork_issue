@@ -28,3 +28,9 @@ Traces:
 ```
 
 removing vm.createSelectFork in the test doesn't produce the issue.
+
+Forge:
+forge 0.2.0 (e9f274d 2022-12-11T00:03:42.968584731Z)
+
+OS:
+Windows 11, wsl 2.0 
